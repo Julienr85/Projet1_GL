@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr"><head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Joncour Robert</title>
+        <meta name="generator" content="Bootply">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Example of using CSS only for masonry / isotope style layout with Bootstrap panels.">
+        <link href="site_ecommerce/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="apple-touch-icon" href="http://www.bootply.com/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="http://www.bootply.com/bootstrap/img/apple-touch-icon-114x114.png">
+
+
+
+<link href="site_ecommerce/font-awesome.css" type="text/css" rel="stylesheet">
+<link href="site_ecommerce/style.css" type="text/css" rel="stylesheet">
+</head>
+
+    <!-- HTML code from Bootply.com editor -->
+
+    <body>
+        <!--template-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container" style="">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" style="">
+              <ul class="nav navbar-nav nav-pills">
+                <li role="presentation" class="active"><a href="Accueil.html" class="" style="">Accueil</a></li>
+                <li role="presentation"><a href="Produit.html">Produit</a></li>
+                <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal">Connexion</a></li>
+                <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal1">Créer mon compte</a></li>
+                <li role="presentation"><a href="Panier.html" class="">Panier</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                                             <span id ="compteur_article">0</span></a>
+                    <ul id="panier" class="dropdown-menu">
+                      <li role="separator" class="divider"></li>
+                         <li><a href="panier.html">Votre Panier</a></li>
+                    </ul>
+                  </li>
+              </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+<div class="container">
+    <div class="col-md-12">
+        <div class="center-block text-center">
+            <h1>Acheter des machines virtuelles en s'amusant</h1>
+            <p class="lead">Windows, Mac OS, Ubuntu, on a tout</p>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="container">
+
+             <div class="row">
+
+               <div class="col-sm-3">
+                 <a href="#">
+                   <br>
+                   <img class="img-responsive" src="site_ecommerce/windows_logo.png" data-alt="" data-title="">
+                 </a>
+                 <br>
+
+                </div>
+                <div class="col-sm-9">
+
+                  <h2><a class="url" href="#"> Windows 10</a></h2>
+
+                  <ul class="list-group ticketView">
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Version</span>
+                          10.1.2.24
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Poids</span>
+                          10 Go
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Prix</span>
+                          <label> 1000€ </label>
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <button type="button" id="32_bit_Windows" class="btn btn-primary achat">32 bits</button>
+                          <button type="button" id="64_bit_Windows" class="btn btn-primary achat">64 bits</button>
+                      </li>
+                  </ul>
+
+                </div><!--/col-->
+            </div><!--/row-->
+
+            <div class="row">
+
+               <div class="col-sm-3">
+                 <a href="#">
+                   <br>
+                   <img class="img-responsive" src="site_ecommerce/macos_logo.png" data-alt="" data-title="">
+                 </a>
+                 <br>
+
+                </div>
+                <div class="col-sm-9">
+
+                  <h2><a class="url" href="#"> Mac OS Sierra</a></h2>
+
+                 <ul class="list-group ticketView">
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Version</span>
+                          10.1.2.24
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Poids</span>
+                          10 Go
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Prix</span>
+                          <label> 1000€ </label>
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <button type="button"  id="32_bit_Mac" class="btn btn-primary achat">32 bits</button>
+                          <button type="button"  id="64_bit_Mac" class="btn btn-primary achat">64 bits</button>
+                      </li>
+                  </ul>
+
+                </div><!--/col-->
+            </div><!--/row-->
+
+            <div class="row">
+
+               <div class="col-sm-3">
+                 <a href="#">
+                   <br>
+                   <img class="img-responsive" src="site_ecommerce/ubuntu_logo.png" data-alt="" data-title="">
+                 </a>
+                 <br>
+
+                </div>
+                <div class="col-sm-9">
+
+                  <h2><a class="url" href="#"> Ubuntu</a></h2>
+
+                  <ul class="list-group ticketView">
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Version</span>
+                          10.1.2.24
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Poids</span>
+                          10 Go
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <span class="label label-default">Prix</span>
+                          <label> 1000€ </label>
+                      </li>
+                      <li class="list-group-item ticketView">
+                          <button type="button" id="32_bit_Ubuntu" class="btn btn-primary achat">32 bits</button>
+                          <button type="button" id="64_bit_Ubuntu" class="btn btn-primary achat">64 bits</button>
+                      </li>
+                  </ul>
+
+                </div><!--/col-->
+            </div><!--/row-->
+
+            <hr>
+</div><!--/container-->
+
+<div class="modal fade" id="myModal">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h4 class="modal-title">Connexion</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+    		<label for="exampleInputEmail1">Email address</label>
+    		<input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
+  		  </div>
+		  <div class="form-group">
+		  	<label for="exampleInputPassword1">Password</label>
+			<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+		  </div>
+          <p class="text-right"><a href="#">Forgot password?</a></p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          <a href="#" class="btn btn-primary">Log-in</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal1">
+  <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Bonjour chèr(e) inconnu(e), on ne se connaît pas...</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+              <label for="nom">Nom</label>
+              <div class="controls">
+                  <input class="form-control" id="nom" placeholder="Nom" type="email">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <div class="controls">
+                  <input class="form-control" id="prenom" placeholder="Prénom" type="email">
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="exampleInputEmail1">Adresse mail</label>
+              <div class="controls">
+                  <input class="form-control" id="exampleInputEmail1" placeholder="Enter email" type="email">
+              </div>
+          </div>
+          <div class="form-group">
+               <label for="exampleInputPassword1">Mot de passe</label>
+               <div class="controls">
+                    <input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password">
+               </div>
+          </div>
+          <div class="form-group">
+               <label for="reenterpassword">Confirmation de mot de passe </label>
+               <div class="controls">
+                    <input class="form-control" id="reenterpassword" placeholder="Password" type="password">
+               </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#" data-dismiss="modal" class="btn">Close</a>
+          <a href="#" class="btn btn-primary">Log-in</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--/template-->
+
+        <script type="text/javascript" src="site_ecommerce/jquery.js"></script>
+
+
+        <script type="text/javascript" src="site_ecommerce/bootstrap.js"></script>
+
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+
+        <script type="text/javascript" src="site_ecommerce/panier.js"></script>
+
+
+</body></html>
