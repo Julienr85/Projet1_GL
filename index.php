@@ -197,16 +197,4 @@
     </div>
 </div>
 
-<!--/template-->
-
-        <script type="text/javascript" src="site_ecommerce/jquery.js"></script>
-
-
-        <script type="text/javascript" src="site_ecommerce/bootstrap.js"></script>
-
-        <!-- JavaScript jQuery code from Bootply.com editor  -->
-
-        <script type="text/javascript" src="site_ecommerce/panier.js"></script>
-
-
-</body></html>
+<?php include 'footer.php'; ?>

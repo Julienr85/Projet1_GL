@@ -63,8 +63,5 @@ function Ubuntu_64 (){
       var a = document.createElement('a');
       menu_panier.appendChild(li);
       li.innerHTML = 'Ubuntu_64_bit' + '       ' + compteur_Ubuntu_64;
-      /* récuperation ID panier pour ajouter ligne
-      ajout d'un enfant
-      '<li><a>Nom de l'article<a></li>'
-*/
 };
+sessionStorage.setItem("compteur_Mac_32","compteur_Mac_64","compteur_Ubuntu_64","compteur_Ubuntu_32","compteur_Windows_32","compteur_Windows_64");

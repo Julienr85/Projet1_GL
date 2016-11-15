@@ -6,7 +6,7 @@
         <meta name="generator" content="Bootply">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="Example of using CSS only for masonry / isotope style layout with Bootstrap panels.">
-        <link href="site_ecommerce/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!--[if lt IE 9]>
@@ -18,8 +18,8 @@
 
 
 
-<link href="site_ecommerce/font-awesome.css" type="text/css" rel="stylesheet">
-<link href="site_ecommerce/style.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/font-awesome.css" type="text/css" rel="stylesheet">
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
     <!-- HTML code from Bootply.com editor -->
@@ -37,15 +37,14 @@
         </div>
         <div class="collapse navbar-collapse" style="">
               <ul class="nav navbar-nav nav-pills">
-                <li role="presentation" class="active"><a href="Accueil.html" class="" style="">Accueil</a></li>
-                <li role="presentation"><a href="Produit.html">Produit</a></li>
+                <li role="presentation" class="active"><a href="index.php" class="" style="">Accueil</a></li>
+                <li role="presentation"><a href="Produit.php">Produit</a></li>
                 <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal">Connexion</a></li>
                 <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal1">Créer mon compte</a></li>
-                <li role="presentation"><a href="Panier.html" class="">Panier</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <li>
-                    <a href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                    <a href="Panier.php" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
                                              <span id ="compteur_article">0</span></a>
                   </li>
               </ul>
