@@ -18,7 +18,7 @@
                <div class="col-sm-3">
                  <a href="#">
                    <br>
-                   <img class="img-responsive" src="site_ecommerce/windows_logo.png" data-alt="" data-title="">
+                   <img class="img-responsive" src="assets/image/windows_logo.png" data-alt="" data-title="">
                  </a>
                  <br>
 
@@ -54,7 +54,7 @@
                <div class="col-sm-3">
                  <a href="#">
                    <br>
-                   <img class="img-responsive" src="site_ecommerce/macos_logo.png" data-alt="" data-title="">
+                   <img class="img-responsive" src="assets/image/macos_logo.png" data-alt="" data-title="">
                  </a>
                  <br>
 
@@ -90,7 +90,7 @@
                <div class="col-sm-3">
                  <a href="#">
                    <br>
-                   <img class="img-responsive" src="site_ecommerce/ubuntu_logo.png" data-alt="" data-title="">
+                   <img class="img-responsive" src="assets/image/ubuntu_logo.png" data-alt="" data-title="">
                  </a>
                  <br>
 

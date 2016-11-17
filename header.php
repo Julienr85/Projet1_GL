@@ -44,8 +44,9 @@
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <li>
-                    <a href="Panier.php" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-                                             <span id ="compteur_article">0</span></a>
+                    <a href="Panier.php" role="button" aria-haspopup="true" aria-expanded="false">
+                      <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                      <span id ="compteur_article">0</span></a>
                   </li>
               </ul>
         </div>
