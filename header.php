@@ -37,7 +37,7 @@
         </div>
         <div class="collapse navbar-collapse" style="">
               <ul class="nav navbar-nav nav-pills">
-                <li role="presentation" class="active"><a href="index.php" class="" style="">Accueil</a></li>
+                <li role="presentation"><a href="index.php" class="" style="">Accueil</a></li>
                 <li role="presentation"><a href="Produit.php">Produit</a></li>
                 <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal">Connexion</a></li>
                 <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal1">Créer mon compte</a></li>
