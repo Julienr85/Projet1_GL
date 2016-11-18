@@ -38,9 +38,7 @@
         <div class="collapse navbar-collapse" style="">
               <ul class="nav navbar-nav nav-pills">
                 <li role="presentation"><a href="index.php" class="" style="">Accueil</a></li>
-                <li role="presentation"><a href="Produit.php">Produit</a></li>
-                <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal">Connexion</a></li>
-                <li role="presentation"><a href="#myModal" data-toggle="modal" data-target="#myModal1">Créer mon compte</a></li>
+                <li role="presentation"><a href="Produit.php">Téléchargements</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
                   <li>
@@ -53,3 +51,4 @@
         <!--/.nav-collapse -->
     </div>
 </div>
+</body>
