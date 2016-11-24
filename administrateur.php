@@ -20,11 +20,11 @@
                             <div class="glyphicon glyphicon-download"></div></div>
                             <div>Ajout VM</div>
                           </a>
-                          <a href="produit_supprimer.php" class="banner "><div class="maxheight">
+                          <a href="suppression_vm.php" class="banner "><div class="maxheight">
                             <div class="glyphicon glyphicon-trash"></div></div>
                             <div>Suppression VM</div>
                           </a>
-                          <a href="" class="banner "><div class="maxheight1">
+                          <a href="gestion_client.php" class="banner "><div class="maxheight1">
                             <div class="glyphicon glyphicon-cog"></div></div>
                             <div>Gestion Client</div>
                           </a>
