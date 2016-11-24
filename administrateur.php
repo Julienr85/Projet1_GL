@@ -12,12 +12,11 @@
 </div><!--/row-->
        <hr>
 <div class="row">
-          <div class="col-sm-4 col-sm-offset-0">
               <section class="page1_header ">
                     <div class="container">
                       <div class="row">
                         <div class="grid_5">
-                          <a href="produit_ajout.php" class="banner "><div class="maxheight">
+                          <a href="ajout_VM.php" class="banner "><div class="maxheight">
                             <div class="glyphicon glyphicon-download"></div></div>
                             <div>Ajout VM</div>
                           </a>
@@ -29,13 +28,12 @@
                             <div class="glyphicon glyphicon-cog"></div></div>
                             <div>Gestion Client</div>
                           </a>
-                          <a href="site/produit.php" class="banner "><div class="maxheight1">
+                          <a href="produit.php" class="banner "><div class="maxheight1">
                             <div class="glyphicon glyphicon-hdd"></div></div>
                             <div>Produit</div>
                           </a>
                         </div>
                       </div>
-                    </div>
                 </section>
             </div><!--/col-->
 </div><!--/row-->

@@ -7,7 +7,7 @@
         <meta name="generator" content="Bootply">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="Example of using CSS only for masonry / isotope style layout with Bootstrap panels.">
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css1/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,9 +17,9 @@
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
-        <link href="css/style.css" type="text/css" rel="stylesheet">
-        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link href="assets/css1/font-awesome.css" type="text/css" rel="stylesheet">
+        <link href="assets/css1/style.css" type="text/css" rel="stylesheet">
+        <link rel="shortcut icon" href="asset/images/favicon.ico" />
 
 
 

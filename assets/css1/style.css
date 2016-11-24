@@ -434,8 +434,6 @@ header h1.stuck_head {
   background-color: #236365;
 }
 .page1_header .banner + .banner + .banner {
-  padding-top: 63px;
-  padding-bottom: 13px;
 }
 .page1_header .banner.maxheight1 .fa {
   margin-bottom: 26px;
