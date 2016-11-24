@@ -13,6 +13,7 @@
 </div><!--/row-->
        <hr>
 <div class="row">
+          <div class="col-sm-4 col-sm-offset-0">
               <section class="page1_header ">
                     <div class="container">
                       <div class="row">
@@ -35,11 +36,9 @@
                           </a>
                         </div>
                       </div>
+                    </div>
                 </section>
             </div><!--/col-->
 </div><!--/row-->
 </div><!--/container-->
-
-
 <?php include 'footer.php'; ?>
->>>>>>> origin/Panier:administrateur.php
