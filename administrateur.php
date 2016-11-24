@@ -3,6 +3,7 @@
 <div class="container">
 
 <div class="row">
+
   <div class="col-md-12">
           <div class="center-block text-center">
               <h1>Bienvenue sur la page de gestion des Machines Virtuelles.</h1>
@@ -20,11 +21,11 @@
                             <div class="glyphicon glyphicon-download"></div></div>
                             <div>Ajout VM</div>
                           </a>
-                          <a href="suppression_vm.php" class="banner "><div class="maxheight">
+                          <a href="produit_supprimer.php" class="banner "><div class="maxheight">
                             <div class="glyphicon glyphicon-trash"></div></div>
                             <div>Suppression VM</div>
                           </a>
-                          <a href="gestion_client.php" class="banner "><div class="maxheight1">
+                          <a href="" class="banner "><div class="maxheight1">
                             <div class="glyphicon glyphicon-cog"></div></div>
                             <div>Gestion Client</div>
                           </a>
@@ -41,3 +42,4 @@
 
 
 <?php include 'footer.php'; ?>
+>>>>>>> origin/Panier:administrateur.php
