@@ -41,8 +41,7 @@
                           <label> 1000€ </label>
                       </li>
                       <li class="list-group-item ticketView">
-                          <button type="button" class="btn btn-primary achat" onclick="Windows_32()">32 bits</button>
-                          <button type="button" class="btn btn-primary achat" onclick="Windows_64()">64 bits</button>
+                          <a href="produit_ajout.php" id="32_bit_Windows"  class="btn btn-primary achat">VM Windows</a>
                       </li>
                   </ul>
 
@@ -77,8 +76,7 @@
                           <label> 1000€ </label>
                       </li>
                       <li class="list-group-item ticketView">
-                          <button type="button"   class="btn btn-primary achat" onclick="Mac_32()">32 bits</button>
-                          <button type="button"   class="btn btn-primary achat" onclick="Mac_64()">64 bits</button>
+                          <a href="produit_ajout.php" id="32_bit_Mac"  class="btn btn-primary achat">VM Mac</a>
                       </li>
                   </ul>
 
@@ -113,8 +111,7 @@
                           <label> 1000€ </label>
                       </li>
                       <li class="list-group-item ticketView">
-                          <button type="button"  class="btn btn-primary achat" onclick="Ubuntu_32()">32 bits</button>
-                          <button type="button"  class="btn btn-primary achat" onclick="Ubuntu_64()">64 bits</button>
+                        <a href="produit_ajout.php" id="32_bit_Ubuntu"  class="btn btn-primary achat">VM Ubuntu</a>
                       </li>
                   </ul>
 
@@ -196,4 +193,5 @@
       </div>
     </div>
 </div>
+
 <?php include 'footer.php'; ?>
