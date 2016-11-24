@@ -23,14 +23,14 @@
       border-right:1px solid #ccc;
       padding:20px;
     }
-     
+
     #blocLeft{
       float:left;
       width:50%;
       height:100%;
       padding:20px;
     }
-     
+
     #blocRight{
       float:right;
       width:50%;

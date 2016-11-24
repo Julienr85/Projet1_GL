@@ -94,7 +94,7 @@
   <!--Acoordion-->
   <div id="accordion">
   <div id="headingZero" class="panel-heading">
-    <a href="#collapseZero" data-toggle="collapse" data-parent="#accordion"> Cliquez ici ajouté d'autre port pair</a></h4>
+    <a href="#collapseZero" data-toggle="collapse" data-parent="#accordion"> Cliquez ici ajouter d'autre port</a></h4>
   </div>
   <div id="collapseZero" class="panel-collapse collapse">
     <div class="panel-body">
@@ -111,10 +111,9 @@
     </div>
   </div>
   </div>
-
-  <ul class="list-group ticketView ">
-           <a href="produit_ajout.php" id="32_bit_Mac"  class="btn btn-primary achat">Submit</a>
-   </ul>
+  <div class="footer" align="right">
+    <a href="#" class="btn btn-primary">Submit</a>
+  </div>
 
 
 </div>
