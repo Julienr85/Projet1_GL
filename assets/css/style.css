@@ -8,12 +8,12 @@ body {
  -moz-column-gap: 1em;
  -webkit-column-gap: 1em;
 }
-  
+
 .menu-category {
  display: inline-block;
  margin-bottom:  0.25rem;
  padding:  1rem;
- width:  100%; 
+ width:  100%;
 }
 
 .product-image {
@@ -21,7 +21,7 @@ body {
 }
 
 .product {
- padding-top:22px;  
+ padding-top:22px;
 }
 
 .btn-product {
@@ -93,5 +93,32 @@ font-weight: 400;
 margin-left: 10px;
 margin-top: 13px;
 text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 /* end custom CSS */
