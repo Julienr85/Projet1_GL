@@ -2,6 +2,18 @@
 
 <head>
   <style>
+    #blocTopLeft{
+      float:left;
+      width:auto;
+      height:118px;
+      content:url(assets/image/VMM_logo.png);
+    }
+
+    #blocTopRight{
+      float:left;
+      width:auto;
+    }
+
     #blocGeneral{
       height:100%;
       width:100%;
@@ -42,7 +54,8 @@
 <body>
   <div class="container-fluid">
     <div class="col-md-12">
-      <div class="center-block text-center">
+      <div class="image" id="blocTopLeft"></div>
+      <div class="container-fluid text-left" align="right" id="blocTopRight">
         <h1>Acheter des machines virtuelles en s'amusant</h1>
         <p class="lead">Windows, Mac OS, Ubuntu, on a tout</p>
       </div>
@@ -60,17 +73,17 @@
           <div class="body">
             <div class="form-group has-feedback">
               <label for="exampleInputEmail1">Adresse mail</label>
-              <input class="form-control" id="exampleInputEmail1" placeholder="Adresse mail" type="email">
+              <input class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
               <i class="glyphicon glyphicon-user form-control-feedback"></i>
             </div>
             <div class="form-group has-feedback">
               <label for="exampleInputPassword1">Mot de passe</label>
-              <input class="form-control" id="exampleInputPassword1" placeholder="Mot de passe" type="password">
+              <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
               <i class="glyphicon glyphicon-lock form-control-feedback"></i>
-              <p align="right" width="50%"><a href="#">Mot de passe oublié ?</a></p>
             </div>
           </div>
-          <div class="footer">
+          <div class="footer" align="right">
+            <p width="50%" style="font-size:small"><a href="forgot_passwd.php">Mot de passe oublié ?</a></p>
             <a href="#" class="btn btn-primary">Me connecter</a>
           </div>
         </div>
@@ -100,23 +113,23 @@
             <div class="form-group">
               <label for="exampleInputEmail1">Adresse mail</label>
               <div class="controls">
-                <input class="form-control" id="exampleInputEmail1" placeholder="Adresse mail" type="email">
+                <input class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
               </div>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Mot de passe</label>
               <div class="controls">
-                <input class="form-control" id="exampleInputPassword1" placeholder="Mot de passe" type="password">
+                <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
               </div>
             </div>
             <div class="form-group">
               <label for="reenterpassword">Confirmation de mot de passe </label>
               <div class="controls">
-                <input class="form-control" id="reenterpassword" placeholder="Mot de passe" type="password">
+                  <input class="form-control" id="reenterPassword" placeholder="Mot de passe" type="password">
               </div>
             </div>
           </div>
-          <div class="footer">
+          <div class="footer" align="right">
             <a href="#" class="btn btn-primary">Créer mon compte</a>
           </div>
         </div>
