@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header_default.php'; ?>
 
 <head>
   <style>
@@ -73,7 +73,7 @@
           <div class="body">
             <div class="form-group has-feedback">
               <label for="exampleInputEmail1">Adresse mail</label>
-              <input class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
+              <input class="form-control" id="inputUser" placeholder="Adresse mail" type="email">
               <i class="glyphicon glyphicon-user form-control-feedback"></i>
             </div>
             <div class="form-group has-feedback">
