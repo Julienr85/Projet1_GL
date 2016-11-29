@@ -2,6 +2,7 @@
 <html lang="fr"><head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
+  <title>VM Master</title>
   <meta name="generator" content="Bootply">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Example of using CSS only for masonry / isotope style layout with Bootstrap panels.">
