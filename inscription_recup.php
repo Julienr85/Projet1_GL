@@ -1,6 +1,6 @@
 <?php
 
-if (empty ( $_POST['optradio1']) && empty ( $_POST['optradio']))
+if (empty ( $_POST['nom']) && empty ( $_POST['prenom']) && empty ( $_POST['optradio']) && empty ( $_POST['optradio']))
 {
  echo "Vide";
 }
