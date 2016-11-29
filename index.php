@@ -100,34 +100,24 @@
             <h4 class="title">Première visite ?</h4>
           </div>
           <div class="body">
-            <div class="form-group">
-              <label for="nom">Nom</label>
-              <div class="controls">
-                <input class="form-control" id="nom" placeholder="Nom" type="email">
+            <div class="form-group"><label for="nom">Nom</label>
+              <div class="radio">
+                <input type="radio" class="form-control" id="nom" placeholder="Nom" type="email">
               </div>
             </div>
-            <div class="form-group">
-              <label for="prenom">Prénom</label>
-              <div class="controls">
-                <input class="form-control" id="prenom" placeholder="Prénom" type="email">
+            <div class="form-group"><label for="prenom">Prénom</label>
+              <div class="radio">
+                <input type="radio" class="form-control" id="prenom" placeholder="Prénom" type="email">
               </div>
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Adresse mail</label>
-              <div class="controls">
-                <input class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
+            <div class="form-group"><label for="exampleInputEmail1">Adresse mail</label>
+              <div class="radio">
+                <input type="radio" class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
               </div>
             </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Mot de passe</label>
-              <div class="controls">
-                <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="reenterpassword">Confirmation de mot de passe </label>
-              <div class="controls">
-                  <input class="form-control" id="reenterPassword" placeholder="Mot de passe" type="password">
+            <div class="form-group"><label for="exampleInputPassword1">Mot de passe</label>
+              <div class="radio">
+                <input type="radio" class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
               </div>
             </div>
           </div>
