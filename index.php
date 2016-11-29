@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'header_default.php'; ?>
 
 <head>
   <style>
