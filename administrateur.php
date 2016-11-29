@@ -1,4 +1,3 @@
-<<<<<<< HEAD:admin/administrateur.php
 <?php include 'header_admin.php'; ?>
 
 <div class="container">
