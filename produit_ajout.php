@@ -15,18 +15,10 @@
       <div class="row">
                 <p class="lead">Fournisseur</p>
                   <div class="col-sm-4 col-sm-offset-0">
-                    <div class="radio">
-                      <label><input type="radio" name="providChoice" id="providChoice1">VirtualBox</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="providChoice" id="providChoice2">VMWare Fusion</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="providChoice" id="providChoice3">Parallels Desktop</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="providChoice" id="providChoice4">VMWare Workstation</label>
-                    </div>
+                    <div class="radio"><label><input type="radio" name="providChoice" id="providChoice">VirtualBox</label> </div>
+                    <div class="radio"><label><input type="radio" name="providChoice" id="providChoice">VMWare Fusion</label></div>
+                    <div class="radio"><label><input type="radio" name="providChoice" id="providChoice">Parallels Desktop</label></div>
+                    <div class="radio"><label><input type="radio" name="providChoice" id="providChoice">VMWare Workstation</label></div>
                   </div><!--/col-->
       </div><!--/row-->
   <hr>
@@ -34,21 +26,11 @@
       <div class="row">
                 <p class="lead">Distribution</p>
                   <div class="col-sm-4 col-sm-offset-0">
-                    <div class="radio">
-                      <label><input type="radio" name="distroChoice" id="distroCHocie">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="distroChoice">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="distroChoice">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="distroChoice">Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
-                    </div>
-                    <div class="radio">
-                      <label><input type="radio" name="distroChoice">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
-                    </div>
+                    <div class="radio"><label><input type="radio" name="distroChoice" id="distroChoice">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+                    <div class="radio"><label><input type="radio" name="distroChoice">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+                    <div class="radio"><label><input type="radio" name="distroChoice">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+                    <div class="radio"><label><input type="radio" name="distroChoice">Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+                    <div class="radio"><label><input type="radio" name="distroChoice">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
                   </div><!--/col-->
       </div><!--/row-->
   <hr>
@@ -68,7 +50,7 @@
     <input class="form-control" name ="adresseIp" id="inputdefault" type="text" placeholder="192.168.56.101">
   </div>
   <div class="form-group">
-    <label for="inputdefault">Memoire RAM</label>
+    <label for="inputdefault">Mémoire RAM</label>
     <input class="form-control" name ="memory" id="inputdefault" type="text" placeholder="512">
   </div>
   <div class="form-group">
@@ -90,7 +72,7 @@
   <!--Acoordion-->
   <div id="accordion">
   <div id="headingZero" class="panel-heading">
-    <a href="#collapseZero" data-toggle="collapse" data-parent="#accordion"> Cliquez ici ajouter d'autres ports pairs</a></h4>
+    <a href="#collapseZero" data-toggle="collapse" data-parent="#accordion"> Cliquez ici ajouter un autre port</a></h4>
   </div>
   <div id="collapseZero" class="panel-collapse collapse">
     <div class="panel-body">
