@@ -73,18 +73,18 @@
           <div class="body">
             <div class="form-group has-feedback">
               <label for="exampleInputEmail1">Adresse mail</label>
-              <input class="form-control" id="inputUser" placeholder="Adresse mail" type="email">
+              <input class="form-control" name="inputUser" id="inputUser" placeholder="Adresse mail" type="email">
               <i class="glyphicon glyphicon-user form-control-feedback"></i>
             </div>
             <div class="form-group has-feedback">
               <label for="exampleInputPassword1">Mot de passe</label>
-              <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
+              <input class="form-control" name="inputPassword" id="inputPassword" placeholder="Mot de passe" type="password">
               <i class="glyphicon glyphicon-lock form-control-feedback"></i>
             </div>
           </div>
           <div class="footer" align="right">
             <p width="50%" style="font-size:small"><a href="forgot_passwd.php">Mot de passe oublié ?</a></p>
-            <a href="#" class="btn btn-primary">Me connecter</a>
+            <a href="authentification.php" class="btn btn-primary">Me connecter</a>
           </div>
         </div>
       </div>

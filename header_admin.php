@@ -43,7 +43,7 @@
                 <li role="presentation"><a href="administrateur.php" class="" style="">Accueil</a></li>
               </ul>
               <ul class="nav navbar-nav nav-pills navbar-right">
-                <li role="presentation"><a href="index.php" class="" style="">Bienvenue Mr X </a></li>
+                <li role="presentation"><a href="index.php" class="" style="">Bienvenue Mr <?php echo $_SESSION['nom'] ?> </a></li>
               </ul>
         </div>
         <!--/.nav-collapse -->

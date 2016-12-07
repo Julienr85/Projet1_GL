@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if (empty ( $_POST['inputUser']) && empty ( $_POST['inputPassword']))
 {
@@ -6,7 +7,7 @@ if (empty ( $_POST['inputUser']) && empty ( $_POST['inputPassword']))
 }
 else
 {
- $monfichier = fopen('authentification.txt', 'r');
+ $monfichier = fopen('admin.txt', 'r');
 
  while (!feof ($monfichier))
  {
@@ -15,6 +16,7 @@ else
    if ($_POST['inputUser'] ==  $resultats[0]) {
 
        if ($_POST['inputPassword'] ==  $resultats[1]) {
+           =  $resultats[2];
            header('location:http://localhost:8888/TP_PHP_ROUE/operations.php');
            break;
          } else {

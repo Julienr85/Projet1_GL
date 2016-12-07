@@ -1,4 +1,4 @@
-<?php include 'header_admin.php'; ?>
+<?php include 'header_admin.php';?>
 
 <div class="container">
 
