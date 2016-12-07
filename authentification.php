@@ -16,14 +16,16 @@ else
    if ($_POST['inputUser'] ==  $resultats[0]) {
 
        if ($_POST['inputPassword'] ==  $resultats[1]) {
-           =  $resultats[2];
-           header('location:http://localhost:8888/TP_PHP_ROUE/operations.php');
+           $_SESSION['nom'] =  $resultats[2];
+           header('location:http://localhost:8888/Projet1_GL/administrateur.php');
            break;
          } else {
          echo "Problème de mot de passe";
+         header('location:http://localhost:8888/Projet1_GL/index.php');
         }
    } else {
        echo "Problème de user";
+       header('location:http://localhost:8888/Projet1_GL/index.php');
    }
  }
  fclose($monfichier);
