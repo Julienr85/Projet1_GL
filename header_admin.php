@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -40,10 +42,10 @@
         </div>
         <div class="collapse navbar-collapse" style="">
               <ul class="nav navbar-nav nav-pills">
-                <li role="presentation"><a href="administrateur.php" class="" style="">Accueil</a></li>
+                <li role="presentation"><a href="http://localhost:8888/Projet1_GL/administrateur.php" class="" style="">Accueil</a></li>
               </ul>
               <ul class="nav navbar-nav nav-pills navbar-right">
-                <li role="presentation"><a href="index.php" class="" style="">Bienvenue Mr X </a></li>
+                <li role="presentation"><a href="index.php" class="" style="">Bienvenue Mr <?php echo $_SESSION['nom'] ?> </a></li>
               </ul>
         </div>
         <!--/.nav-collapse -->

@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if (empty ( $_POST['inputUser']) && empty ( $_POST['inputPassword']))
 {
@@ -15,6 +16,9 @@ else
    if ($_POST['inputUser'] ==  $resultats[0]) {
 
        if ($_POST['inputPassword'] ==  $resultats[1]) {
+           $_SESSION['nom'] = $resultats[2];
+           $_SESSION['prenom'] = $resultats[3];
+
            header('location:http://localhost:8888/Projet1_GL/administrateur.php');
            break;
          } else {
