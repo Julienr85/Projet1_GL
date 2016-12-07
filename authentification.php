@@ -15,7 +15,7 @@ else
    if ($_POST['inputUser'] ==  $resultats[0]) {
 
        if ($_POST['inputPassword'] ==  $resultats[1]) {
-           header('location:http://localhost:8888/TP_PHP_ROUE/administrateur.php');
+           header('location:http://localhost:8888/Projet1_GL/administrateur.php');
            break;
          } else {
          echo "Problème de mot de passe";
