@@ -1,4 +1,4 @@
-<?php include 'header_default.php';?>
+<?php include 'header_default.php'; ?>
 
 <head>
   <style>
@@ -70,24 +70,22 @@
           <div class="header">
             <h4 class="title">Connexion</h4>
           </div>
-          <form class="form-signin" action="authentification.php" method="post">
-            <div class="body">
-              <div class="form-group has-feedback">
-                <label for="exampleInputEmail1">Adresse mail</label>
-                <input class="form-control" name ="inputUser" id="inputUser" placeholder="Adresse mail" type="email">
-                <i class="glyphicon glyphicon-user form-control-feedback"></i>
-              </div>
-              <div class="form-group has-feedback">
-                <label for="exampleInputPassword1">Mot de passe</label>
-                <input class="form-control" name="inputPassword" id="inputPassword" placeholder="Mot de passe" type="password">
-                <i class="glyphicon glyphicon-lock form-control-feedback"></i>
-              </div>
+          <div class="body">
+            <div class="form-group has-feedback">
+              <label for="exampleInputEmail1">Adresse mail</label>
+              <input class="form-control" id="inputUser" placeholder="Adresse mail" type="email">
+              <i class="glyphicon glyphicon-user form-control-feedback"></i>
             </div>
-            <div class="footer" align="right">
-              <p width="50%" style="font-size:small"><a href="forgot_passwd.php">Mot de passe oublié ?</a></p>
-              <input type="submit" class="btn btn-primary" id="submit" value="Me connecter"></input>
+            <div class="form-group has-feedback">
+              <label for="exampleInputPassword1">Mot de passe</label>
+              <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
+              <i class="glyphicon glyphicon-lock form-control-feedback"></i>
             </div>
-          </form>
+          </div>
+          <div class="footer" align="right">
+            <p width="50%" style="font-size:small"><a href="forgot_passwd.php">Mot de passe oublié ?</a></p>
+            <a href="#" class="btn btn-primary">Me connecter</a>
+          </div>
         </div>
       </div>
       <hr>
@@ -100,24 +98,34 @@
             <h4 class="title">Première visite ?</h4>
           </div>
           <div class="body">
-            <div class="form-group"><label for="nom">Nom</label>
-              <div class="radio">
-                <input type="radio" class="form-control" id="nom" placeholder="Nom" type="email">
+            <div class="form-group">
+              <label for="nom">Nom</label>
+              <div class="controls">
+                <input class="form-control" id="nom" placeholder="Nom" type="email">
               </div>
             </div>
-            <div class="form-group"><label for="prenom">Prénom</label>
-              <div class="radio">
-                <input type="radio" class="form-control" id="prenom" placeholder="Prénom" type="email">
+            <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <div class="controls">
+                <input class="form-control" id="prenom" placeholder="Prénom" type="email">
               </div>
             </div>
-            <div class="form-group"><label for="exampleInputEmail1">Adresse mail</label>
-              <div class="radio">
-                <input type="radio" class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Adresse mail</label>
+              <div class="controls">
+                <input class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
               </div>
             </div>
-            <div class="form-group"><label for="exampleInputPassword1">Mot de passe</label>
-              <div class="radio">
-                <input type="radio" class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
+            <div class="form-group">
+              <label for="exampleInputPassword1">Mot de passe</label>
+              <div class="controls">
+                <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="reenterpassword">Confirmation de mot de passe </label>
+              <div class="controls">
+                  <input class="form-control" id="reenterPassword" placeholder="Mot de passe" type="password">
               </div>
             </div>
           </div>

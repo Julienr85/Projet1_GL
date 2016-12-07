@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 if (empty ( $_POST['inputUser']) && empty ( $_POST['inputPassword']))
 {
@@ -7,7 +6,7 @@ if (empty ( $_POST['inputUser']) && empty ( $_POST['inputPassword']))
 }
 else
 {
- $monfichier = fopen('admin.txt', 'r');
+ $monfichier = fopen('authentification.txt', 'r');
 
  while (!feof ($monfichier))
  {
@@ -16,10 +15,7 @@ else
    if ($_POST['inputUser'] ==  $resultats[0]) {
 
        if ($_POST['inputPassword'] ==  $resultats[1]) {
-           $_SESSION['nom'] = $resultats[2];
-           $_SESSION['prenom'] = $resultats[3];
-
-           header('location:http://localhost:8888/Projet1_GL/administrateur.php');
+           header('location:http://localhost:8888/TP_PHP_ROUE/operations.php');
            break;
          } else {
          echo "Problème de mot de passe";
