@@ -10,6 +10,7 @@ echo "Vide";
 
 else
 {
+  echo $_POST['ProvidChoice'];
   $_SESSION["ProvidChoice"] =  $_POST['ProvidChoice'];
   $_SESSION["DistroChoice"] =  $_POST['DistroChoice'];
   $_SESSION["Version"] =  $_POST['Version'];

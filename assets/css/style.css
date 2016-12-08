@@ -122,4 +122,10 @@ text-align: center;
     border-radius: 4px;
 }
 
+.center .center-block {
+    display: block;
+    margin-right: 60px;
+    margin-left: 300px;
+}
+
 /* end custom CSS */

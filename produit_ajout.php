@@ -25,27 +25,19 @@
     <div class="row">
       <p class="lead">Distro</p>
       <div class="col-sm-4 col-sm-offset-0">
-<<<<<<< HEAD
           <div class="radio">  <label><input type="radio" name="distroChoice" id ="distroChoice" value="CentOS 6 x64">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice"   value="CentOS 7 x64">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice"   value="Ubuntu Trusty 14.04 LTS x64">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice"   value="Ubuntu Xenial 16.04 LTS i386">  Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio "><label><input type="radio" name="distroChoice" id ="distroChoice"  value="Ubuntu Xenial 16.04 LTS x64">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
-=======
-        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
-        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
-        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
-        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
-        <div class="radio "><label><input type="radio" name="distroChoice" id ="distroChoice">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
->>>>>>> origin/Panier
       </div><!--/col-->
     </div><!--/row-->
 <hr>
   <!--Machine-->
     <p class="lead">Machines</p>
     <div class="form-group">
-      <label for="machine">Internal Identifier</label>
-      <input class="form-control" name ="machine_puphet" id="machine_puphet" type="text" placeholder="machine_puphet"></input>
+      <label for="machine_puphet">Internal Identifier</label>
+      <input class="form-control" name ="machine_puphet" id="machine_puphet" type="text" placeholder="Machine_puphet"></input>
     </div>
     <div class="form-group">
             <label for="adresseIp">Adresse Ip</label>
@@ -57,18 +49,18 @@
         </div>
     <div class="form-group">
             <label for="cpu">CPUs</label>
-            <input class="form-control" id="Vm_port_supp" type="text" placeholder="22"></input>
+            <input class="form-control" id="cpu" type="text" placeholder="22"></input>
     </div>
 <hr>
       <!--Forwarded Ports-->
   <p class="lead">Forwarded Ports</p>
   <div class="form-group">
-            <label for="inputdefault">Port Maître</label>
+            <label for="host_Port">Port Maître</label>
             <input class="form-control" name ="hostPort" id="host_Port" type="text" placeholder="8515"></input>
    </div>
   <div class="form-group">
-      <label for="inputdefault">VM Port</label>
-      <input class="form-control" name ="hostPort" id="vm_Port" type="text" placeholder="8515"></input>
+      <label for="vm_Port">VM Port</label>
+      <input class="form-control" name ="vm_Port" id="vm_Port" type="text" placeholder="22"></input>
     </div>
   <!--Acoordion-->
   <div id="accordion">
@@ -78,26 +70,15 @@
     <div id="collapseZero" class="panel-collapse collapse">
       <div class="panel-body">
           <div class="form-group">
-            <label for="inputdefault">Port Maître</label>
-            <input class="form-control" id="Host_port_supp" type="text" placeholder="8515">
+            <label for="host_port_supp">Port Maître</label>
+            <input class="form-control" id="host_port_supp" type="text" placeholder="8515">
           </div>
           <div class="form-group">
-            <label for="inputdefault">VM Port</label>
-            <input class="form-control" id="Vm_port_supp" type="text" placeholder="22">
+            <label for="vm_port_supp">VM Port</label>
+            <input class="form-control" id="vm_port_supp" type="text" placeholder="22">
           </div>
       </div>
-    </div>
-    <div id="collapseZero" class="panel-collapse collapse">
-      <div class="panel-body">
-            <div class="form-group">
-              <label for="inputdefault">Port Maître</label>
-              <input class="form-control" id="Host_port_supp" type="text" placeholder="8515"></input>
-            </div>
-            <div class="form-group">
-              <label for="inputdefault">VM Port</label>
-              <input class="form-control" id="Vm_port_supp" type="text" placeholder="22"></input>
-            </div>
-      </div>
+     </div>
     </div>
   <!--footer-->
   <div class="footer" align ="right">
@@ -112,20 +93,20 @@
     </div>
   </form>
 </div><!--/container-->
-<div class="modal fade" id="modalRecap">
+<div class="modal fade" id="modalRecap"  method="post">
   <div class="modal-dialog">
     <div class="modal-content">
-      <form name="form_panier_final" id="form_panier_final" action="panier.php" method="post">
+      <form name="form_panier_final" id="form_panier_final" action="produit_ajout_recup_donne.php" method="post">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <h4 class="modal-title">Récapitulatif</h4>
       </div>
       <div class="modal-body">
-        <div class="form-group" id="idModalElement">
-        </div>
+          <div class="form-group" id="idModalElement">
+          </div>
         <div class="modal-footer">
           <a href="#" data-dismiss="modal" class="btn">Annuler</a>
-          <a href="panier.php" class="btn btn-primary">Valider</a>
+          <a href="produit_ajout_recup_donne.php" class="btn btn-primary">Valider</a>
         </div>
       </div>
     </div>
