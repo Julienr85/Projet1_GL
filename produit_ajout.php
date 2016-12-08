@@ -25,11 +25,19 @@
     <div class="row">
       <p class="lead">Distro</p>
       <div class="col-sm-4 col-sm-offset-0">
+<<<<<<< HEAD
           <div class="radio">  <label><input type="radio" name="distroChoice" id ="distroChoice" value="CentOS 6 x64">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice"   value="CentOS 7 x64">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice"   value="Ubuntu Trusty 14.04 LTS x64">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice"   value="Ubuntu Xenial 16.04 LTS i386">  Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
           <div class="radio "><label><input type="radio" name="distroChoice" id ="distroChoice"  value="Ubuntu Xenial 16.04 LTS x64">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+=======
+        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+        <div class="radio"><label><input type="radio" name="distroChoice" id ="distroChoice">Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+        <div class="radio "><label><input type="radio" name="distroChoice" id ="distroChoice">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label></div>
+>>>>>>> origin/Panier
       </div><!--/col-->
     </div><!--/row-->
 <hr>
