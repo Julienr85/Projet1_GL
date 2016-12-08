@@ -10,21 +10,21 @@
     </div>
   </div><!--/row-->
     <hr>
-<form name="form_panier" id="form_panier">
+<form name="ajout_vm" id="ajout_vm" action="ajout_vm_recup_donne.php" method="post">
   <div class="row">
     <p class="lead">Provider</p>
       <div class="col-sm-4 col-sm-offset-0">
         <div class="radio">
-          <label><input type="radio" name="optradio1">VirtualBox</label>
+          <label><input type="radio" name="providChoice" value="VirtualBox">VirtualBox</label>
           </div>
           <div class="radio">
-          <label><input type="radio" name="optradio1">VMWare Fusion</label>
+          <label><input type="radio" name="providChoice" value="VMWare Fusion">VMWare Fusion</label>
           </div>
           <div class="radio">
-          <label><input type="radio" name="optradio1">Parallels Desktop</label>
+          <label><input type="radio" name="providChoice" value="Parallels Desktop">Parallels Desktop</label>
           </div>
           <div class="radio">
-          <label><input type="radio" name="optradio1">VMWare Workstation</label>
+          <label><input type="radio" name="providChoice" value="VMWare Workstation">VMWare Workstation</label>
           </div>
       </div><!--/col-->
   </div><!--/row-->
@@ -34,19 +34,19 @@
     <p class="lead">Distro</p>
       <div class="col-sm-4 col-sm-offset-0">
           <div class="radio">
-          <label><input type="radio" name="optradio">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
+          <label><input type="radio" name="DistroChoice" value="CentOS 6 x64 ">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
           </div>
           <div class="radio">
-          <label><input type="radio" name="optradio">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
+          <label><input type="radio" name="DistroChoice" value="CentOS 7 x64 ">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
           </div>
           <div class="radio">
-          <label><input type="radio" name="optradio">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
+          <label><input type="radio" name="DistroChoice" value="Ubuntu Trusty 14.04 LTS x64">Ubuntu Trusty 14.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
           </div>
           <div class="radio">
-          <label><input type="radio" name="optradio">  Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
+          <label><input type="radio" name="DistroChoice" value="Ubuntu Xenial 16.04 LTS i386">  Ubuntu Xenial 16.04 LTS i386 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
           </div>
           <div class="radio ">
-          <label><input type="radio" name="optradio">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
+          <label><input type="radio" name="DistroChoice" value="Ubuntu Xenial 16.04 LTS i386">Ubuntu Xenial 16.04 LTS x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
           </div>
       </div><!--/col-->
   </div><!--/row-->
@@ -54,25 +54,30 @@
   <!--Machine-->
   <p class="lead">Machines</p>
   <div class="form-group">
-    <label for="inputdefault">Version</label>
-    <input class="form-control" name ="Version" id="inputdefault" type="text" placeholder="">
+    <label for="Version">Version</label>
+    <input class="form-control" name ="Version" id="Version" type="text" placeholder="">
   </div>
   <div class="form-group">
-    <label for="inputdefault">Poids</label>
-    <input class="form-control" name ="Poids" id="inputdefault" type="text" placeholder="">
+    <label for="poids">Poids</label>
+    <input class="form-control" name ="Poids" id="Poids" type="text" placeholder="">
   </div>
   <div class="form-group">
-    <label for="inputdefault">Prix</label>
-    <input class="form-control" name ="Prix" id="inputdefault" type="text" placeholder="">
+    <label for="Prix">Prix</label>
+    <input class="form-control" name ="Prix" id="Prix" type="text" placeholder="">
   </div>
   <div class="form-group">
-    <label for="inputdefault">Nom</label>
-    <input class="form-control" name ="Nom" id="inputdefault" type="text" placeholder="">
+    <label for="Nom">Nom</label>
+    <input class="form-control" name ="Nom" id="Nom" type="text" placeholder="">
   </div>
+  <div class="form-group">
+    <label for="Image">Image de la VM</label>
+    <input class="form-control" name ="Image" id="Image" type="file"  placeholder="" />
+  </div>
+
   <div class="footer" align ="right">
-      <a href="#modalRecap" data-toggle="modal" data-target="#modalRecap" class="btn btn-primary achat" id="btSubmit">Ajouter</a>
+     <input type="submit" class="btn btn-primary" value="Valider" ></input>
       <input type="reset" class="btn btn-warning" value="Reset" ></input>
-    </div>
+  </div>
 </form>
 </div><!--/container-->
 <?php include 'footer.php'; ?>
