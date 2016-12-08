@@ -117,7 +117,7 @@
         </div>
         <div class="modal-footer">
           <a href="#" data-dismiss="modal" class="btn">Annuler</a>
-          <a href="#" class="btn btn-primary">Valider</a>
+          <a href="panier.php" class="btn btn-primary">Valider</a>
         </div>
       </div>
     </div>
