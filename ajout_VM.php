@@ -76,7 +76,7 @@
 
   <div class="footer" align ="right">
      <input type="submit" class="btn btn-primary" value="Valider" ></input>
-      <input type="reset" class="btn btn-warning" value="Reset" ></input>
+     <input type="reset" class="btn btn-warning" value="Reset" ></input>
   </div>
 </form>
 </div><!--/container-->

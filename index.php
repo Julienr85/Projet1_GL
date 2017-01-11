@@ -1,4 +1,6 @@
-<?php include 'header_default.php'; ?>
+<?php include 'header_default.php';
+      session_start();
+?>
 
 <head>
   <style>
@@ -89,46 +91,47 @@
     <div class="container-fluid" id="blocRight">
       <div class="dialog">
         <div class="content">
+          <form name="formulaire_connexion" id="formulaire_inscription" action="formulaire.php" method="post" >
           <div class="header">
             <h4 class="title">Première visite ?</h4>
           </div>
           <div class="body">
-            <div class="form-group">
-              <label for="nom">Nom</label>
-              <div class="controls">
-                <input class="form-control" id="nom" placeholder="Nom" type="email">
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <div class="controls">
+                  <input class="form-control" name="nom" placeholder="Nom" type="text">
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="prenom">Prénom</label>
-              <div class="controls">
-                <input class="form-control" id="prenom" placeholder="Prénom" type="email">
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <div class="controls">
+                  <input class="form-control" name="prenom" placeholder="Prénom" type="text">
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Adresse mail</label>
-              <div class="controls">
-                <input class="form-control" id="inputEmail" placeholder="Adresse mail" type="email">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Adresse mail</label>
+                <div class="controls">
+                  <input class="form-control" name="inputEmail" placeholder="Adresse mail" type="email">
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Mot de passe</label>
-              <div class="controls">
-                <input class="form-control" id="inputPassword" placeholder="Mot de passe" type="password">
+              <div class="form-group">
+                <label for="exampleInputPassword1">Mot de passe</label>
+                <div class="controls">
+                  <input class="form-control" name="inputPassword" placeholder="Mot de passe" type="password">
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <label for="reenterpassword">Confirmation de mot de passe </label>
-              <div class="controls">
-                  <input class="form-control" id="reenterPassword" placeholder="Mot de passe" type="password">
+              <div class="form-group">
+                <label for="reenterpassword">Confirmation de mot de passe </label>
+                <div class="controls">
+                    <input class="form-control" name="reenterPassword" placeholder="Mot de passe" type="password">
+                </div>
               </div>
-            </div>
               <div class="footer" align="left">
-                <input type="submit" value="Créer mon compte" class="btn btn-primary" id="creationCompte"></input>
-                <a href="#modalCompte" data-toggle="modal" data-target="#modalCompte" class="btn btn-primary achat">Récap infos</a>
+                  <input type="submit" value="Créer mon compte" class="btn btn-primary" id="creationCompte"></input>
+                  <a href="#modalCompte" data-toggle="modal" data-target="#modalCompte" class="btn btn-primary achat">Récap infos</a>
               </div>
-            </form>
           </div><!--/div class="body"-->
+         </form>
         </div>
       </div>
     </div><!--/container-fluid blocRight-->
