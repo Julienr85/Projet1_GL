@@ -93,7 +93,6 @@
             <h4 class="title">Première visite ?</h4>
           </div>
           <div class="body">
-<<<<<<< HEAD
             <div class="form-group">
               <label for="nom">Nom</label>
               <div class="controls">
@@ -122,21 +121,8 @@
               <label for="reenterpassword">Confirmation de mot de passe </label>
               <div class="controls">
                   <input class="form-control" id="reenterPassword" placeholder="Mot de passe" type="password">
-=======
-            <form name="form_compte" id="form_compte">
-              <div class="form-group"><label for="nom">Nom</label>
-                <div class="controls"><input typ="form-control" class="form-control" name="nom_compte" placeholder="Nom" type="text"></div>
               </div>
-              <div class="form-group"><label for="prenom">Prénom</label>
-                <div class="controls"><input type="form-control" class="form-control" name="prenom_compte" placeholder="Prénom" type="text"></div>
-              </div>
-              <div class="form-group"><label for="exampleInputEmail1">Adresse mail</label>
-                <div class="controls"><input type="form-control" class="form-control" id="inputEmail_compte" placeholder="Adresse mail" type="email"></div>
-              </div>
-              <div class="form-group"><label for="exampleInputPassword1">Mot de passe</label>
-                <div class="controls"><input type="form-control" class="form-control" id="inputPassword_compte" placeholder="Mot de passe" type="password"></div>
->>>>>>> origin/Panier
-              </div>
+            </div>
               <div class="footer" align="left">
                 <input type="submit" value="Créer mon compte" class="btn btn-primary" id="creationCompte"></input>
                 <a href="#modalCompte" data-toggle="modal" data-target="#modalCompte" class="btn btn-primary achat">Récap infos</a>
