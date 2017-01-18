@@ -17,15 +17,15 @@ else
 
        if ($_POST['inputPassword'] ==  $resultats[1]) {
            $_SESSION['nom'] =  $resultats[2];
-           header('location:http://localhost:8888/Projet1_GL/administrateur.php');
+           header('location:http://localhost:8888/ApplicationVmMaster/Projet1_GL/administrateur.php');
            break;
          } else {
          echo "Problème de mot de passe";
-         header('location:http://localhost:8888/Projet1_GL/index.php');
+         header('location:http://localhost:8888/ApplicationVmMaster/Projet1_GL/index.php');
         }
    } else {
        echo "Problème de user";
-       header('location:http://localhost:8888/Projet1_GL/index.php');
+       header('location:http://localhost:8888/ApplicationVmMaster/Projet1_GL/index.php');
    }
  }
  fclose($monfichier);

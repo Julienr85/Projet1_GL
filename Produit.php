@@ -109,6 +109,10 @@ session_start();
 
   <!--/Machine4-->
 
+
+<?php for ($i = 1; $i < 2; $i++)
+          {
+            ?>
     <div class="row">
       <div class="col-sm-3">
         <a href="#">
@@ -135,10 +139,10 @@ session_start();
              <li class="list-group-item ticketView">
                  <a href="produit_ajout.php" id="32_bit_Windows"  class="btn btn-primary achat"><?php echo $_SESSION["Nom"];?></a>
              </li>
-
          </ul>
        </div><!--/col-->
    </div><!--/row-->
-            <hr>
+   <?php  }  ?>
+  <hr>
 </div><!--/container-->
 <?php include 'footer.php'; ?>

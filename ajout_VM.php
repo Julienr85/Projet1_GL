@@ -15,7 +15,7 @@
     <p class="lead">Provider</p>
       <div class="col-sm-4 col-sm-offset-0">
         <div class="radio">
-          <label><input type="radio" name="providChoice" value="VirtualBox">VirtualBox</label>
+          <label><input type="radio" name="providChoice" value="VirtualBox" required>VirtualBox</label>
           </div>
           <div class="radio">
           <label><input type="radio" name="providChoice" value="VMWare Fusion">VMWare Fusion</label>
@@ -34,7 +34,7 @@
     <p class="lead">Distro</p>
       <div class="col-sm-4 col-sm-offset-0">
           <div class="radio">
-          <label><input type="radio" name="DistroChoice" value="CentOS 6 x64 ">CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
+          <label><input type="radio" name="DistroChoice" value="CentOS 6 x64" required>CentOS 6 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
           </div>
           <div class="radio">
           <label><input type="radio" name="DistroChoice" value="CentOS 7 x64 ">CentOS 7 x64 (PHP 7.1, 7, 5.6, 5.5, HHVM)</label>
@@ -55,23 +55,23 @@
   <p class="lead">Machines</p>
   <div class="form-group">
     <label for="Version">Version</label>
-    <input class="form-control" name ="Version" id="Version" type="text" placeholder="">
+    <input class="form-control" name ="Version" id="Version" type="text" placeholder="" required />
   </div>
   <div class="form-group">
     <label for="poids">Poids</label>
-    <input class="form-control" name ="Poids" id="Poids" type="text" placeholder="">
+    <input class="form-control" name ="Poids" id="Poids" type="text" placeholder="" required />
   </div>
   <div class="form-group">
     <label for="Prix">Prix</label>
-    <input class="form-control" name ="Prix" id="Prix" type="text" placeholder="">
+    <input class="form-control" name ="Prix" id="Prix" type="text" placeholder="" required />
   </div>
   <div class="form-group">
     <label for="Nom">Nom</label>
-    <input class="form-control" name ="Nom" id="Nom" type="text" placeholder="">
+    <input class="form-control" name ="Nom" id="Nom" type="text" placeholder="" required />
   </div>
   <div class="form-group">
     <label for="Image">Image de la VM</label>
-    <input class="form-control" name ="Image" id="Image" type="file"  placeholder="" />
+    <input class="form-control" name ="Image" id="Image" type="file"  placeholder="" required />
   </div>
 
   <div class="footer" align ="right">

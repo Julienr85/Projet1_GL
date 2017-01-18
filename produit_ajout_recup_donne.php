@@ -14,7 +14,6 @@ else
   $_SESSION["DistroChoice"] =  $_POST['distroChoice'];
   $_SESSION["Machine"] =  $_POST['machine_puphet'];
   $_SESSION["Adresseip"] =  $_POST['adresseip'];
-
   header('location:http://localhost:8888/Projet1_GL/panier.php');
 }
 
