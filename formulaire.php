@@ -7,6 +7,6 @@ if ($monfichier){
   $longueur =  strlen($string);
   fseek($monfichier, $longueur);
   fputs($monfichier, $string);
-  header('location:http://localhost:8888/ApplicationVmMaster/Projet1_GL/');
+  header('location:http://localhost:8888/Projet1_GL/');
 }
 ?>
